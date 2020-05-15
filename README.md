@@ -29,9 +29,20 @@ Edit this document to include your answers after each question. Make sure to lea
 Preprocessing tekes one type of data and converts it to another type for you.
 
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like the organization that it allows. I like that you can nest CSS elements all together and not have, for example, a bunch of different hearders (ie header div, or header p). I do struggle with always remembering to set up the less compiler, and then wondering why none of my CSS is showing.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a container for storing data that is easily accessible when needed.
+
 4. What is the purpose of using functions in code?
+
+It is designed to be given a code that can be invoked when needed.
+
 5. What is a JSON data?
+
+JvaScript Object Notation. It's text only and can be written in any coding language.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
