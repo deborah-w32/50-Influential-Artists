@@ -86,3 +86,78 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(https://fonts.gstatic.com/s/notosans/v9/o-0NIpQlx3QUlC5A4PNjXhFlYw.ttf) format('truetype');
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  margin: 5%;
+}
+.title-container {
+  height: 100%;
+  width: 100%;
+  font-size: 3rem;
+  color: #FEFEFE;
+  font-family: 'Noto Sans', sans-serif;
+}
+.title-container img {
+  height: 100%;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+.title-container h1 {
+  position: absolute;
+  width: 100%;
+}
+.title-container button {
+  position: absolute;
+  display: block;
+  background-color: white;
+  cursor: pointer;
+  width: 180px;
+  font-size: 1.4rem;
+  color: #4A4A4A;
+}
+.title-container button:hover {
+  background-color: #4A4A4A;
+  color: white;
+}
+.artist-container {
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #4A4A4A;
+  display: flex;
+  flex-direction: column;
+}
+.artist-container div {
+  width: 100%;
+}
+header nav {
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  color: #4A4A4A;
+  font-size: 1.8rem;
+  text-align: center;
+}

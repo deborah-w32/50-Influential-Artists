@@ -1,0 +1,47 @@
+
+head{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans:wght@700&display=swap');
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    margin: 5%;
+}
+
+.title-container{
+    height: 100%;
+    width: 100%;
+    font-size: 3rem;
+    color: #FEFEFE;
+    font-family: @title-font;
+    img{
+        height: 100%;
+        width: 80%;
+        overflow: hidden;
+        position: relative;
+        
+    }
+    h1{
+        position: absolute;
+        width: 100%;
+    }
+    button{
+        position: absolute;
+        .custom-button();
+    }
+}
+
+.artist-container{
+    width: 100%;
+    font-family: @font;
+    font-size: 1.6rem;
+    color:@dark-olive;
+    display: flex;
+    flex-direction: column;
+
+    div{
+        width: 100%;
+    }
+}
