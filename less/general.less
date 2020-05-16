@@ -1,0 +1,71 @@
+
+head{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Questrial&display=swap');
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    margin: 10%;
+}
+
+.title-container{
+     height: 500px;
+     width: 82%;
+     font-size: 3rem;
+     color: #FEFEFE;
+     font-family: @title-font;
+     background: url(https://raw.githubusercontent.com/deborah-w32/50-Influential-Artists/master/assets/home.png);
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding-bottom: 3%;
+    h1{
+        width: 100%;
+    }
+    button{
+       .custom-button();
+    }
+}
+
+.artists-container{
+    padding-top: 3%;
+    width: 100%;
+    font-size: 1.4rem;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    
+    @media @mobile {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    a{
+        text-decoration: none;
+        color:@dark-olive;
+        padding-bottom: 2%;
+
+    }
+    .artist{
+        width: 50%;
+        text-align: center;
+        font-family: @paragraph-font;
+        color:@dark-olive;
+
+        @media @mobile {
+            width: 50%;
+        }
+    }
+    img{
+        height: 300px;
+        width: 400px;
+        border-radius: 5%;
+    }
+}

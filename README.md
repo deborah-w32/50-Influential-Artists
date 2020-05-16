@@ -25,10 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing tekes one type of data and converts it to another type for you.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like the organization that it allows. I like that you can nest CSS elements all together and not have, for example, a bunch of different hearders (ie header div, or header p). I do struggle with always remembering to set up the less compiler, and then wondering why none of my CSS is showing.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a container for storing data that is easily accessible when needed.
+
 4. What is the purpose of using functions in code?
+
+It is designed to be given a code that can be invoked when needed.
+
 5. What is a JSON data?
+
+JvaScript Object Notation. It's text only and can be written in any coding language.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -56,7 +70,7 @@ Follow these steps to set up your project:
 
 #### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -72,14 +86,14 @@ _You will know everything is working properly when you see the styles enabled fo
 
 #### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html).
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
-* [ ] Main Content Styles: Use the `main.less` file for styling.
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
-* [ ] Use at least 2 parameters to create your button.
+* [x] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [x] Add a viewport meta tag to the head of your index.html page.
+* [x] [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html).
+* [x] Navigation Styles: Use the `navigation.less` file for styling.
+* [x] Main Content Styles: Use the `main.less` file for styling.
+* [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
+* [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+* [x] Use at least 2 parameters to create your button.
 * [ ] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
 
 ### Task 2b: Minimum Viable Product - JavaScript

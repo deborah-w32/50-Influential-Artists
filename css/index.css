@@ -1,4 +1,213 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(https://fonts.gstatic.com/s/notosans/v9/o-0NIpQlx3QUlC5A4PNjXhFlYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Questrial'), local('Questrial-Regular'), url(https://fonts.gstatic.com/s/questrial/v9/QdVUSTchPBm7nuUeVf7EuQ.ttf) format('truetype');
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  margin: 10%;
+}
+.title-container {
+  height: 500px;
+  width: 82%;
+  font-size: 3rem;
+  color: #FEFEFE;
+  font-family: 'Noto Sans', sans-serif;
+  background: url(https://raw.githubusercontent.com/deborah-w32/50-Influential-Artists/master/assets/home.png);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.title-container h1 {
+  width: 100%;
+}
+.title-container button {
+  display: block;
+  background-color: white;
+  cursor: pointer;
+  width: 180px;
+  font-size: 1.4rem;
+  color: #4A4A4A;
+}
+.title-container button:hover {
+  background-color: #4A4A4A;
+  color: white;
+}
+.artists-container {
+  padding-top: 3%;
+  width: 100%;
+  font-size: 1.4rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+@media ( max-width: 500px ) {
+  .artists-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+.artists-container a {
+  text-decoration: none;
+  color: #4A4A4A;
+  padding-bottom: 2%;
+}
+.artists-container .artist {
+  width: 50%;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  color: #4A4A4A;
+}
+@media ( max-width: 500px ) {
+  .artists-container .artist {
+    width: 50%;
+  }
+}
+.artists-container img {
+  height: 300px;
+  width: 400px;
+  border-radius: 5%;
+}
+header {
+  width: 100%;
+}
+header nav {
+  display: flex;
+  width: 20%;
+  padding-bottom: 5%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25%;
+}
+header a {
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  color: #4A4A4A;
+  font-size: 1.8rem;
+  width: 30%;
+  text-align: center;
+}
